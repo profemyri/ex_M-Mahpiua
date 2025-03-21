@@ -11,25 +11,24 @@
     <form id="formulario"><br>
         <h2>Datos del cliente</h2>
         <hr>
-        <span class="datos">Nombre</span>
+        <span class="datos">Nombre</span><br>
         <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"><br>
         <br>
-        <span class="datos">Apellidos</span>
+        <span class="datos">Apellidos</span><br>
         <input type="text" id="apellidos" name="apellidos" placeholder="Escribe tu apellido"><br>
         <br>
-        <span class="datos">Email</span>
+        <span class="datos">Email</span><br>
         <input type="email" id="email" name="email" placeholder="Escribe tu email"><br>
         <br>
-        <span class="datos">Dirección</span>
+        <span class="datos">Dirección</span><br>
         <input type="text" id="direccion" name="direccion" placeholder="Escribe tu dirección"><br>
         <br>
-        <span class="datos">Teléfono</span>
+        <span class="datos">Teléfono</span><br>
         <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu telefono"><br>
         <br>
-        <span class="datos">Hora aproximada de entrega</span>
+        <span class="datos">Hora aproximada de entrega</span><br>
         <input type="time" id="hora" name="hora">
         <hr>
-    </form>
     <h2>Pedido de pescado</h2>
     <hr>
     <p>Tipo de pescado</p>
@@ -37,14 +36,30 @@
     <input type="radio" value="adobo">Adobo<br>
     <input type="radio" value="boquerones">Boquerones<br>
     <p>Número de raciones</p>
-    <input type="checkbox" value=""></p>
+    <input type="checkbox" value="">1</p>
+    <input type="checkbox" value="">2</p>
+    <input type="checkbox" value="">3</p>
+    <input type="checkbox" value="">4</p>
+    <input type="checkbox" value="">5</p>
     <p>Acompañamiento</p>
     <input type="checkbox" value="patatas">Patatas fritas<br>
     <input type="checkbox" value="ensaladilla">Ensaladilla<br>
     <input type="checkbox" value="manzanilla">Botella de Manzanilla<br>
     <hr>
-    <input type="submit" value="Enviar pedido">
-    <script src="ex_html-css-js.js"></script>
+    <h2>Pago</h2>
+    <p>Método de pago</p>
+    <input type="radio" value="efectivo">Efectivo<br>
+    <input type="radio" value="tarjeta">Tarjeta<br>
+    <input type="radio" value="paypal">PayPal<br>
+    <h2>Instrucciones adicionales:</h2>
+    <textarea id="observaciones" placeholder="Escribe tus preferencias..."></textarea><br>
+    <p><span id="contador">0</span>/150 caracteres</p>
+    <p>Total</p>
+    <input type="submit" id= "botonEnviar" value="Enviar pedido"><br>
+    <button id="oscuro">Modo oscuro</button>
+</form>
+<footer>Pilar Parra Vergara</footer>
+<script src="ex_html-css-js.js"></script>
 
 </body>
 </html>
