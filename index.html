@@ -8,7 +8,9 @@
 <body>
     <h1>¡¡Pide aquí tu rico pescaíto!!</h1>
     <img src="pescado_frito.jpg" width="300" height="200" alt="Bandeja pescado frito">
-    <form id="formulario">
+    <form id="formulario"><br>
+        <h2>Datos del cliente</h2>
+        <hr>
         <span class="datos">Nombre</span>
         <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"><br>
         <br>
@@ -25,14 +27,23 @@
         <input type="tel" id="telefono" name="telefono" placeholder="Escribe tu telefono"><br>
         <br>
         <span class="datos">Hora aproximada de entrega</span>
-        <input type="datetime" id="hora" name="hora">
+        <input type="time" id="hora" name="hora">
         <hr>
     </form>
-
-
-
-
-
+    <h2>Pedido de pescado</h2>
+    <hr>
+    <p>Tipo de pescado</p>
+    <input type="radio" value="calamares">Calamares<br>
+    <input type="radio" value="adobo">Adobo<br>
+    <input type="radio" value="boquerones">Boquerones<br>
+    <p>Número de raciones</p>
+    <input type="checkbox" value=""></p>
+    <p>Acompañamiento</p>
+    <input type="checkbox" value="patatas">Patatas fritas<br>
+    <input type="checkbox" value="ensaladilla">Ensaladilla<br>
+    <input type="checkbox" value="manzanilla">Botella de Manzanilla<br>
+    <hr>
+    <input type="submit" value="Enviar pedido">
     <script src="ex_html-css-js.js"></script>
 
 </body>
